@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".SubActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="16dp"
+        android:text="학기 선택"
+        android:textSize="30dp"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_margin="16dp"
+        android:entries="@array/term"></Spinner>
+
+    <TextView
+        android:id="@+id/term_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="선택 학기"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TermSelect"
+        android:layout_margin="16dp"
+        android:text="선택"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/goBack"
+        android:layout_margin="16dp"
+        android:text="뒤로가기"/>
+
+
+</LinearLayout>

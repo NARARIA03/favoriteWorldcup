@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WinnerActivity">
+
+    <TextView
+        android:id="@+id/txtView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:text="FINAL WINNER"
+        android:layout_marginBottom="70dp"
+        android:layout_above="@+id/imgView"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="259dp"
+        android:layout_height="262dp"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/txtView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_above="@+id/resBtn"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/resBtn"
+        android:layout_width="116dp"
+        android:layout_height="63dp"
+        android:text="결과 보기"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="60dp"/>
+
+    <Button
+        android:id="@+id/nextBtn"
+        android:layout_width="116dp"
+        android:layout_height="63dp"
+        android:text="인기투표"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="60dp"/>
+</RelativeLayout>
